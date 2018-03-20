@@ -1,0 +1,21 @@
+{
+  "name": "web_responsive",
+  "version": "1.0.0",
+  "description": "Bootcamp Web Responsive - Login & Sing up Forms",
+  "main": "GruntFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fermonx/actividad_3"
+  },
+  "author": "Juan Diego Martin-Blas Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fermonx/actividad_3/issues"
+  },
+  "homepage": "https://github.com/Fermonx/actividad_3#readme",
+  "devDependencies": {
+  }
+}
