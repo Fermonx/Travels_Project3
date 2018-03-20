@@ -544,7 +544,8 @@ iframe {
     border-color: rgb(60, 165, 255);
     color: #fff;
     margin-top: 10px;
-    width: 100%;
+    width: 45%;
+
 }
 
 .btn-custom:hover {
