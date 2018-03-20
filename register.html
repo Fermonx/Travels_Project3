@@ -48,7 +48,7 @@
     <div id="login" class="login-wrapper d-flex align-items-center">
         <div class="container container-destinos">
             <div class="row d-flex justify-content-center row-contact">
-                <div class="col-8 form-login">
+                <div class="col-6 form-login">
                     <div class="contact-message">
                         <h3><i class="far fa-edit"></i> Registrarse</h3>
                     </div>
@@ -56,26 +56,28 @@
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <label class="hidden-resp" for="inputEmail4">Usuario</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Usuario*">
+                                <input type="email" class="form-control" id="inputuser" placeholder="Usuario*">
                             </div>
                             <div class="form-group col-md-12">
-                                <label class="hidden-resp" for="inputPassword4">Correo Electrónico</label>
-                                <input type="email" class="form-control" id="inputPassword4" placeholder="Correo Electrónico">
+                                <input type="email" class="form-control" id="inputemail" placeholder="Correo Electrónico*">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <label class="hidden-resp" for="inputEmail4">Contraseña</label>
-                                <input type="password" class="form-control" id="inputEmail6" placeholder="Contraseña*">
+                                <input type="password" class="form-control" id="inputPassword1" placeholder="Contraseña*"required>
                             </div>
                             <div class="form-group col-md-12">
-                                <label class="hidden-resp" for="inputPassword4">Confirmar Contraseña</label>
-                                <input type="password" class="form-control" id="inputPassword6" placeholder="Contraseña*">
+                                <div id="#passCheck">
+                                    <input type="password" class="form-control" id="inputPassword2" placeholder="Contraseña*"required>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="checkbox"><label style="padding-left: 1em;">Acepto los terminos y condiciones</label>
                             </div>
                         </div>
+                    </form>
 
-                        <button type="submit" class="btn btn-custom btn-contact offset-md-3">Registrarme</button>
+                        <button type="submit" class="btn btn-custom btn-contact">Registrarme</button>
                 </div>
             </div>
         </div>

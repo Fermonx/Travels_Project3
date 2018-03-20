@@ -544,7 +544,7 @@ iframe {
     border-color: rgb(60, 165, 255);
     color: #fff;
     margin-top: 10px;
-    width: 45%;
+    width: 100%;
 
 }
 
@@ -810,4 +810,16 @@ footer ul {
     }*/
 
 }
+
+.form-control2
+{
+    border-color: red;
+}
+
+.form-control2:focus
+{
+    border-color: red;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 22, 0.36);
+}
+
 
