@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <nav class="navbar navbar-light bg-light navbar-expand-lg nav-fixed">
@@ -191,7 +191,7 @@
         <div class="wrapper">
             <div class="container container-destinos">
                 <div class="row d-flex destinos-items">
-                    <div class="col-12 col-md-4 destinos-item">
+                    <div class="col-12 col-md-4 destinos-item is-showing">
                         <div class="destino destino-paris d-flex justify-content-between">
                             <div class="price d-flex align-items-center justify-content-center align-self-end">250 &euro;</div>
                             <a class="back-heart" >
@@ -207,7 +207,7 @@
                             <p>Escapada romántica.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 destinos-item">
+                    <div class="col-12 col-md-4 destinos-item is-showing">
                         <div class="destino destino-washington d-flex justify-content-between">
                             <div class="price d-flex align-items-center justify-content-center align-self-end">1.150 &euro;</div>
                             <a class="back-heart" >
@@ -223,7 +223,7 @@
                             <p>Disfruta de un país increible.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 destinos-item">
+                    <div class="col-12 col-md-4 destinos-item is-showing">
                         <div class="destino destino-irlanda d-flex justify-content-between">
                             <div class="price d-flex align-items-center justify-content-center align-self-end">250 &euro;</div>
                             <a class="back-heart" >
@@ -239,7 +239,7 @@
                             <p>Unas vistas inolvidables.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 destinos-item">
+                    <div class="col-12 col-md-4 destinos-item is-showing">
                         <div class="destino destino-pekin d-flex justify-content-between">
                             <div class="price d-flex align-items-center justify-content-center align-self-end">1.650 &euro;</div>
                             <a class="back-heart" >
@@ -255,7 +255,7 @@
                             <p>Un destino milenario.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 destinos-item">
+                    <div class="col-12 col-md-4 destinos-item is-showing">
                         <div class="destino destino-india d-flex justify-content-between">
                             <div class="price d-flex align-items-center justify-content-center align-self-end">500 &euro;</div>
                             <a class="back-heart" >
@@ -271,7 +271,7 @@
                             <p>Descubre una nueva cultura.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 destinos-item">
+                    <div class="col-12 col-md-4 destinos-item is-showing">
                         <div class="destino destino-cartagena d-flex justify-content-between">
                             <div class="price d-flex align-items-center justify-content-center align-self-end">650 &euro;</div>
                             <a class="back-heart" >
@@ -295,7 +295,7 @@
     <section class="overHidden">
         <div class="quienes-somos d-flex align-items-center">
             <div class="container d-flex justify-content-end">
-                <div class="nosotros col-md-5">
+                <div class="nosotros col-lg-5">
                     <h1>Sobre nosotros</h1>
                     <hr>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequuntur culpa doloribus dolorum, est eveniet facilis hic illo nam nemo nobis optio placeat quaerat quo rerum saepe sed tempore tenetur!</p>
@@ -312,7 +312,7 @@
         <div id="contact" class="contact">
             <div class="container container-destinos">
                 <div class="row d-flex row-contact">
-                    <div class="col-12 col-md-6 form-contact">
+                    <div class="col-12 col-md-6 form-contact hidden-resp">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.4502350400226!2d-0.358128684734015!3d39.48174697948473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604898947abad3%3A0x5aae0e0b7fa0358a!2sGeeksHubs+Space+Valencia!5e0!3m2!1ses!2ses!4v1520005723384" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-md-6 form-contact">
@@ -357,7 +357,7 @@
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="w-100 d-flex justify-content-center d-lg-none">
+                    <div class="w-100 d-flex justify-content-center hidden-lg">
                         <i class="rrss-resp mg-10 fab fa-facebook-f"></i>
                         <i class="rrss-resp mg-10 fab fa-twitter"></i>
                         <i class="rrss-resp mg-10 fab fa-youtube"></i>

@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $(window).scroll(function() {
+    /*$(window).scroll(function() {
 
         var wScroll = $(this).scrollTop();
         var pos = $('.quienes-somos').position().top;
@@ -10,7 +10,7 @@ $(document).ready(function () {
                 'background-position': 'center '+(wScroll*0.5)+'px'
             });
         }
-    });
+    });*/
 
     $(window).on('scroll', function () {
         if($(window).scrollTop()===0 && $("#menu-toggler").attr("aria-expanded")===true) {
@@ -31,7 +31,7 @@ $(document).ready(function () {
         };
     });
 
-    $(window).on('scroll', function () {
+    /*$(window).on('scroll', function () {
         var wScroll = $(this).scrollTop();
         if (wScroll > $('.destinos-items').offset().top - ($(window).height() / 1.2)){
             $('.destinos-items .destinos-item').each(function (i) {
@@ -41,7 +41,7 @@ $(document).ready(function () {
             });
         };
 
-    });
+    });*/
 
 
     var pressed = true;

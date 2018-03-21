@@ -2,7 +2,7 @@
   "name": "web_responsive",
   "version": "1.0.0",
   "description": "Bootcamp Web Responsive - Login & Sing up Forms",
-  "main": "GruntFile.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,8 @@
     "url": "https://github.com/Fermonx/actividad_3/issues"
   },
   "homepage": "https://github.com/Fermonx/actividad_3#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }

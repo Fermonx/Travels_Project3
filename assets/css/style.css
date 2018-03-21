@@ -708,6 +708,44 @@ footer ul {
     background-color: rgba(0,0,0,0.5);
 }
 
+.btn-login {
+    background-color: rgb(60, 165, 255);
+    border-color: rgb(60, 165, 255);
+    color: #fff;
+}
+
+.remember-password a{
+    text-decoration: none;
+    color: white;
+}
+
+.remember-password {
+    text-align: right;
+    padding-top: 2em;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/* 404 Style */
+
+.message404 {
+    text-align: center;
+    color: white;
+    padding: 2em;
+    background-color: rgba(0,0,0,0.5);
+}
+.message404 h3{
+    color: white;
+}
+
+.hr-center {
+    margin-left: auto;
+}
+
 
 /* Media Querys*/
 
