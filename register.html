@@ -50,16 +50,16 @@
             <div class="row d-flex justify-content-center row-contact">
                 <div class="col-6 form-login">
                     <div class="contact-message">
-                        <h3><i class="far fa-edit"></i> Registrarse</h3>
+                        <h3><i class="far fa-edit"></i> Registro</h3>
                     </div>
                     <hr>
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <input type="email" class="form-control" id="inputuser" placeholder="Usuario*">
+                                <input type="text" class="form-control" id="inputuser" placeholder="Usuario*" required>
                             </div>
                             <div class="form-group col-md-12">
-                                <input type="email" class="form-control" id="inputemail" placeholder="Correo Electrónico*">
+                                <input type="email" class="form-control" id="inputemail" placeholder="Correo Electrónico*" required>
                             </div>
                         </div>
                         <div class="form-row">
@@ -72,12 +72,12 @@
                                 </div>
                             </div>
                             <div class="form-group col-md-12">
-                                <input type="checkbox"><label style="padding-left: 1em;">Acepto los terminos y condiciones</label>
+                                <input type="checkbox" id="checkb"><label style="padding-left: 1em;" >Acepto los terminos y condiciones</label>
                             </div>
                         </div>
                     </form>
 
-                        <button type="submit" class="btn btn-custom btn-contact">Registrarme</button>
+                        <button type="submit" class="btn btn-custom btn-contact disabled" id="regbutton" >Registrarme</button>
                 </div>
             </div>
         </div>
