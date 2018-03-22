@@ -5,6 +5,7 @@ $("#inputPassword2").keyup(function(){
     var pw2 = $("#inputPassword2").val().length;
     var pw11 = $("#inputPassword1").val();
     var pw22 = $("#inputPassword2").val();
+    var encode;
 
     if((pw1 !== pw2)&&(pw11 !== pw22))
     {
@@ -12,7 +13,9 @@ $("#inputPassword2").keyup(function(){
     }
     else if ((pw2 === pw1)&&(pw22 === pw11))
         $("#inputPassword2").removeClass("form-control2");
+
 });
+
 
 $(function()
 {
@@ -59,3 +62,4 @@ $(window).on('scroll', function () {
         $('#main-menu').addClass('menu-scroll');
     };
 });
+
