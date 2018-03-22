@@ -1,6 +1,7 @@
 const EXPRESS = require('express');
 const APP = EXPRESS();
 
+
 APP.use('/assets', EXPRESS.static('assets'));
 APP.use('/bower_components', EXPRESS.static('bower_components'));
 

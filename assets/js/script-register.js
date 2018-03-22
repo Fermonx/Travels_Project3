@@ -63,3 +63,15 @@ $(window).on('scroll', function () {
     };
 });
 
+$('#regbutton').on('click', function () {
+    let passwordLogin = $('#regbutton').val();
+    let encrypted = CryptoJS.AES.encrypt(passwordLogin, "Secret Passphrase");
+    let decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase").toString(CryptoJS.enc.Utf8);
+    alert('Password: ' + decrypted + '\n' + 'Encriptada: ' +encrypted);
+    localStorage.setItem('password', encrypted);
+});
+
+$("#regbutton").click(function () {
+    let userName = $('#inputuser').val();
+    localStorage.setItem('user', userName);
+});
