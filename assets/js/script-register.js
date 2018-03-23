@@ -22,9 +22,15 @@ $(function()
     $('#checkb').click(function()
     {
         if($(this).is(':checked'))
+        {
             ($("#regbutton")).removeClass('disabled');
+            ($("#regbutton")).removeAttr('disabled');
+        }
         else
+        {
             ($("#regbutton")).addClass('disabled');
+            ($("#regbutton")).attr('disabled');
+        }
     });
 });
 
@@ -64,14 +70,16 @@ $(window).on('scroll', function () {
 });
 
 $('#regbutton').on('click', function () {
-    let passwordLogin = $('#regbutton').val();
-    let encrypted = CryptoJS.AES.encrypt(passwordLogin, "Secret Passphrase");
+    let passwordRegister = $('#regbutton').val();
+    let encrypted = CryptoJS.AES.encrypt(passwordRegister, "Secret Passphrase");
     let decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase").toString(CryptoJS.enc.Utf8);
-    alert('Password: ' + decrypted + '\n' + 'Encriptada: ' +encrypted);
+    //alert('Password: ' + decrypted + '\n' + 'Encriptada: ' +encrypted);
+    if(passwordRegister)
     localStorage.setItem('password', encrypted);
 });
 
 $("#regbutton").click(function () {
     let userName = $('#inputuser').val();
+    if (userName)
     localStorage.setItem('user', userName);
 });
