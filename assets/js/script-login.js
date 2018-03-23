@@ -1,11 +1,11 @@
 $(document).ready(function () {
 
-    /*$('#login-submit').on('click', function () {
+    $('#login-submit').on('click', function () {
         let passwordLogin = $('#login-password').val();
         let encrypted = CryptoJS.AES.encrypt(passwordLogin, "Secret Passphrase");
         let decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase").toString(CryptoJS.enc.Utf8);
         alert('Password: ' + decrypted + '\n' + 'Encriptada: ' +encrypted);
-    });*/
+    });
 
     $("#login-submit").click(function () {
         let userName = $('#login-name').val();

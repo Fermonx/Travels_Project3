@@ -12,6 +12,14 @@ APP.get('/login', function (req, res) {
     res.sendFile(__dirname + '/login.html');
 });
 
+APP.get('/registro', function (req, res) {
+    res.sendFile(__dirname + '/register.html');
+});
+
+APP.get('/routes', function (req, res) {
+    res.sendFile(__dirname + '/assets/routes/404.html');
+});
+
 APP.get('*',function (req, res) {
     res.sendFile(__dirname + '/404.html');
 });
